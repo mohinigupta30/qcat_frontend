@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Q CAT</title>
+</head>
+<body>
+    <h1>Q-CAT</h1>
+    <h2>A Python Library for Question Categorization</h2>
+    <a href="https://www.w3schools.com/">Click here to download Q-Cat for your project!</a>
+    <form action='/question' method='post'>
+        <label for="question">Enter a Question:</label>
+        <input type="text" id="question" name="entered_question"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <p>Question Category: {{category}}</p>
+</body>
+</html>
