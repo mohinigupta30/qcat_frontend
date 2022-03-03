@@ -27,5 +27,6 @@ def categorize():
     question = request.form['entered_question']
     return render_template(
         'q-cat-home-page.html',
-        category = question
+        category = question,
+        explanation = "Sorry, we don't have this implemented yet."
     )

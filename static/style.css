@@ -4,7 +4,7 @@ body * {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
     color:rgb(136, 0, 136);
     background-color: beige;
 }
@@ -24,7 +24,43 @@ h2{
 }
 
 .q-submission {
-    padding: 100px 0 30px;
+    padding: 150px 0 30px;
+}
+
+.q-input {
+    width: 25%;
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    background-color: beige;
+    height: 35px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.q-input:focus {
+    border-bottom: 2px solid black;
+}
+
+.q-submit {
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.q-submit:hover {
+    background-color: black;
+}
+
+.response {
+    width: 40%;
+    color: darkslateblue;
 }
 
 header {
