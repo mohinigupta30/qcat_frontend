@@ -27,6 +27,7 @@ def categorize():
     question = request.form['entered_question']
     return render_template(
         'q-cat-home-page.html',
+<<<<<<< HEAD
         category = question
     )
 
@@ -42,3 +43,9 @@ def back_question():
         category = current_category
     )
 
+=======
+        rquestion = question,
+        category = "CATEGORY",
+        explanation = "Sorry, we don't have this implemented yet."
+    )
+>>>>>>> d78776ce93cfdc982200b66cf3dac93c667f59c8

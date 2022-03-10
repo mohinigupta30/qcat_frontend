@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/static/style.css">
     <title>Q CAT</title>
+    <!-- <link rel="icon" href="../qcat_logo.png"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
 </head>
+<<<<<<< HEAD
 <body>
     <h1>Q-CAT</h1>
     <h2>A Python Library for Question Categorization</h2>
@@ -18,5 +24,40 @@
         <input type="submit" value="View all Question Types">
     </form>
       <p>Question Category: {{category}}</p>
+=======
+<body style="margin-top: 75px;">
+    <center>
+    <div>
+        <h1>Q-CAT</h1>
+        <h2>A Python Library for Question Categorization</h2>
+        <a href="https://www.w3schools.com/" target="_blank"/>Click here to download Q-Cat</a>
+    </div>
+    <!-- <hr style="margin: 30px 0;"> -->
+    <div class="q-submission">
+        <p>What type of question is...</p>
+        <form action='/question' method='post'>
+            <input class="q-input" type="text" id="question" name="entered_question" placeholder="Enter a Question"><br><br>
+            <input class="q-submit" type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="response">
+        <p hidden id="category"><b>{{rquestion}}</b> is a <b>{{category}}</b> question</p>
+        <p id="explanation">{{explanation}}</p>
+        <a hidden id="learnmore" href="https://www.w3schools.com/">Learn More</a>
+    </div>
+    </center>
+>>>>>>> d78776ce93cfdc982200b66cf3dac93c667f59c8
 </body>
+<script>
+    var page = document.getElementById("learnmore")
+    var category = document.getElementById("category")
+    var explanation = document.getElementById("explanation")
+    if (explanation.innerText != "") {
+        page.hidden = false
+        category.hidden = false
+    } else {
+        page.hidden = true
+        category.hidden = true
+    }
+</script>
 </html>
