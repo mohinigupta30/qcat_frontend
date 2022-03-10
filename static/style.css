@@ -82,6 +82,8 @@ nav ul {
 main {
     margin: 3vh;
 }
+<<<<<<< HEAD
+=======
 
 @media only screen and (max-width: 1000px) {
     /* Media queries go here */
@@ -90,3 +92,4 @@ main {
 @media only screen and (max-width: 600px) {
     /* Media queries go here */
 }
+>>>>>>> d78776ce93cfdc982200b66cf3dac93c667f59c8
