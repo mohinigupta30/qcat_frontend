@@ -29,3 +29,16 @@ def categorize():
         'q-cat-home-page.html',
         category = question
     )
+
+@app.route('/explanation', methods=['POST'])
+def explain():
+    return render_template(
+        'question_explaination_page.html')
+
+@app.route('/back_question', methods=['POST'])
+def back_question():
+    return render_template(
+        'q-cat-home-page.html',
+        category = current_category
+    )
+
