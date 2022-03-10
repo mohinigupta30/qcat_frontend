@@ -63,6 +63,39 @@ textarea:focus, input:focus{
     color: darkslateblue;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 3px solid darkslateblue; */
+    color: darkslateblue;
+}
+  
+th, td {
+    padding: 20px;
+    color:darkslateblue;
+}
+
+.table-header {
+    color: darkblue;
+    padding-top: 25px;
+}
+
+.type-col {
+    text-align: center;
+    width: 20%;
+}
+
+.nextPage {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
 header {
     padding: 3vh;
     background: #EEE;
@@ -82,8 +115,6 @@ nav ul {
 main {
     margin: 3vh;
 }
-<<<<<<< HEAD
-=======
 
 @media only screen and (max-width: 1000px) {
     /* Media queries go here */
@@ -92,4 +123,3 @@ main {
 @media only screen and (max-width: 600px) {
     /* Media queries go here */
 }
->>>>>>> d78776ce93cfdc982200b66cf3dac93c667f59c8

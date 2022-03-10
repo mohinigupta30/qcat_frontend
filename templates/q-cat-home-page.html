@@ -14,8 +14,8 @@
     <center>
     <div>
         <h1>Q-CAT</h1>
-        <h2>A Python Library for Question Categorization</h2>
-        <a href="https://www.w3schools.com/" target="_blank"/>Click here to download Q-Cat</a>
+        <h2>A Pre-trained Model for Question Categorization</h2>
+        <a href="https://huggingface.co/ekohrt/qcat" target="_blank"/>Click here to download Q-Cat</a>
     </div>
     <!-- <hr style="margin: 30px 0;"> -->
     <div class="q-submission">
@@ -24,26 +24,22 @@
             <input class="q-input" type="text" id="question" name="entered_question" placeholder="Enter a Question"><br><br>
             <input class="q-submit" type="submit" value="Submit">
         </form>
-        <form action='/explanation' method = 'post'>
-            <input type="submit" value="View all Question Types">
-        </form>
     </div>
     <div class="response">
         <p hidden id="category"><b>"{{rquestion}}"</b> is a <b>{{category}}</b> question <b> with a confidence of </b> <b> {{confidence}}</b></p> 
         <p id="explanation">{{explanation}}</p>
-        <a hidden id="learnmore" href="https://www.w3schools.com/">Learn More</a>
+        <form action='/explanation' method = 'post'>
+            <input id="learnmore" class="nextPage" type="submit" value="View all Question Types">
+        </form>
     </div>
     </center>
 </body>
 <script>
-    var page = document.getElementById("learnmore")
     var category = document.getElementById("category")
     var explanation = document.getElementById("explanation")
     if (explanation.innerText != "") {
-        page.hidden = false
         category.hidden = false
     } else {
-        page.hidden = true
         category.hidden = true
     }
 </script>

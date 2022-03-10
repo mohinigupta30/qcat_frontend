@@ -4,202 +4,213 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/static/style.css">
     <title>Question Explanation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Question Categories</h1>
     <h2>Read to Learn About our Taxonomy of Question Types</h2>
-    <form action='/back_question' method = 'post'>
-        <input type="submit" value="Back to Home Page">
-    </form>
-    <h2>MATH</h2>
+    <center>
+        <form action='/back_question' method = 'post'>
+            <input class="nextPage" type="submit" value="Back to Home Page">
+        </form>
+    </center>
+    <h2 class="table-header">MATH</h2>
+    <hr style="width: 95%;">
     <table>
         <tr>
-            <th>Question Type</th>
+            <th class="type-col">Question Type</th>
             <th>Explanation</th>
             <th>Examples</th>
         </tr>
         <tr>
-            <td>Arithmetic</td>
+            <td class="type-col">Arithmetic</td>
             <td>Questions in this category require some piece of basic arithmetic to be performed (e.g. addition, subtraction, multiplication, division).</td>
             <td>What is the difference in height between Mt. Everest and the Empire State Building?</td>
         </tr>
         <tr>
-            <td>Standard Deviation</td>
+            <td class="type-col">Standard Deviation</td>
             <td>Questions in this category require the standard deviation to be calculated over a set of data points.</td>
             <td>What is the standard deviation among the age of students at Northwestern?</td>
         </tr>
         <tr>
-            <td>Correlation</td>
+            <td class="type-col">Correlation</td>
             <td>Questions in this category require a correlation to be calculated over a set of data points.</td>
             <td>Is there a positive correlation between the amount of chocolate consumed and a person’s happiness level?</td>
         </tr>
         <tr>
-            <td>Average</td>
+            <td class="type-col">Average</td>
             <td>Questions in this category require an average value to be calculated over a collection of values or data points.</td>
             <td>What is the average population of all countries in the world?</td>
         </tr>
         <tr>
-            <td>Median</td>
+            <td class="type-col">Median</td>
             <td>Questions in this category require the median value to be found in a collection of values.</td>
             <td>What is the median population of countries in the world?</td>
         </tr>
         <tr>
-            <td>Mode</td>
+            <td class="type-col">Mode</td>
             <td>Questions in this category require the most common value to be found in a collection of values.</td>
             <td>What is the most common birthday among these people?</td>
         </tr>
         <tr>
-            <td>Counting</td>
+            <td class="type-col">Counting</td>
             <td>Questions in this category require that a collection of items be counted in order to answer the question.</td>
             <td>How many countries are there in the world?</td>
         </tr>
         <tr>
-            <td>Range</td>
+            <td class="type-col">Range</td>
             <td>Questions in this category require the range of values to be found in a collection of values</td>
             <td>What is the range of number of burritos a college student eats?</td>
         </tr>
     </table>
-    <h2>RETRIEVAL</h2>
+    <h2 class="table-header">RETRIEVAL</h2>
+    <hr style="width: 95%;">
     <table>
         <tr>
-            <th>Question Type</th>
+            <th class="type-col">Question Type</th>
             <th>Explanation</th>
             <th>Examples</th>
         </tr>
         <tr>
-            <td>Qualitative Property Retrieval</td>
+            <td class="type-col">Qualitative Property Retrieval</td>
             <td>Questions in this category require a single property to be retrieved about a given entity.</td>
             <td>Who was Eleanor Roosevelt married to?</td>
         </tr>
         <tr>
-            <td>Numeric Retrieval</td>
+            <td class="type-col">Numeric Retrieval</td>
             <td>Questions in this category require a numeric value to be retrieved. </td>
             <td>What is the population of Earth?</td>
         </tr>
         <tr>
-            <td>Boolean Retrieval</td>
+            <td class="type-col">Boolean Retrieval</td>
             <td>Questions in this category require a boolean value to be retrieved or produced given a set of properties or text regarding an entity.</td>
             <td>Is George Washington French?</td>
         </tr>
         <tr>
-            <td>Datetime Retrieval</td>
+            <td class="type-col">Datetime Retrieval</td>
             <td>Questions in this category require a datetime value to be retrieved.</td>
             <td>When was Barack Obama born?</td>
         </tr>
         <tr>
-            <td>Set Retrieval</td>
+            <td class="type-col">Set Retrieval</td>
             <td>Questions in this category require a set of values to be retrieved</td>
             <td>What are all the ben and jerrys flavors?</td>
         </tr>
         <tr>
-            <td>Qualitative Property Multihop Retrieval</td>
+            <td class="type-col">Qualitative Property Multihop Retrieval</td>
             <td>Questions that require a sequence of simple retrieval questions to be answered.</td>
             <td>When was the person Eleanor Roosevelt is married to born?</td>
         </tr>
     </table>
-    <h2>COMPARISON</h2>
+    <h2 class="table-header">COMPARISON</h2>
+    <hr style="width: 95%;">
     <table>
         <tr>
-            <th>Question Type</th>
+            <th class="type-col">Question Type</th>
             <th>Explanation</th>
             <th>Examples</th>
         </tr>
         <tr>
-            <td>Numeric Comparison</td>
+            <td class="type-col">Numeric Comparison</td>
             <td>Questions in this category require multiple numeric values to be found and compared in order to determine which is greater, lesser, equal, etc.</td>
             <td>Is the Sears Tower taller than the Empire State Building?</td>
         </tr>
         <tr>
-            <td>Datetime Comparison</td>
+            <td class="type-col">Datetime Comparison</td>
             <td>Questions in this category require multiple datetime values to be found and compared in order to determine which is first, last, the same, etc.</td>
             <td>Was George Lucas born before Steven Spielberg?</td>
         </tr>
         <tr>
-            <td>Qualitative Comparison</td>
+            <td class="type-col">Qualitative Comparison</td>
             <td>Questions in this category require qualitative properties of entities to be found and compared.</td>
             <td>Is the sky the same color as grass?</td>
         </tr>
         <tr>
-            <td>Superlative</td>
+            <td class="type-col">Superlative</td>
             <td>Questions in this category require that multiple values be found and ranked in order to determine the top value.</td>
             <td>Which book has the highest average user rating?</td>
         </tr>
         <tr>
-            <td>Set Intersection</td>
+            <td class="type-col">Set Intersection</td>
             <td>Questions in this category require that at least two sets of values be found in order to perform an intersection operation and find the common elements.</td>
             <td>What movie directors are both taller than six feet and from California?</td>
         </tr>
         <tr>
-            <td>Set Union</td>
+            <td class="type-col">Set Union</td>
             <td>Questions in this category require that at least two sets of values be found in order to perform a union operation and merge the sets together into one.</td>
             <td>Which films were filmed in either California or Georgia?</td>
         </tr>
         <tr>
-            <td>Set Difference</td>
+            <td class="type-col">Set Difference</td>
             <td>Questions in this category require that at least two sets of values be found in order to find the elements that are in one set, but not in the other sets.</td>
             <td>Which films were created in California, but not Georgia?</td>
         </tr>
         <tr>
-            <td>Mathematical Comparison</td>
+            <td class="type-col">Mathematical Comparison</td>
             <td>Questions in this category can be viewed as inheriting from Metric Comparison and Mathematics as they require both a mathematical computation to be performed, as well as a comparison of the computed values.</td>
             <td>By how many feet is Denali taller than Mt. Rainier?</td>
         </tr>
         <tr>
-            <td>Set Property Satisfaction</td>
+            <td class="type-col">Set Property Satisfaction</td>
             <td>Questions in this category require that a set of entities that satisfy a specific property are found.</td>
             <td>What buildings have a height greater than 500 feet?</td>
         </tr>
     </table>
-    <h2>BOOLEAN</h2>
+    <h2 class="table-header">BOOLEAN</h2>
+    <hr style="width: 95%;">
     <table>
         <tr>
-            <th>Question Type</th>
+            <th class="type-col">Question Type</th>
             <th>Explanation</th>
             <th>Examples</th>
         </tr>
         <tr>
-            <td>Boolean And</td>
+            <td class="type-col">Boolean And</td>
             <td>Questions in this category require a boolean AND expression to be evaluated from a collection of boolean values.</td>
             <td>Are Serena Williams and Roger Federer both American?</td>
         </tr>
         <tr>
-            <td>Boolean Or</td>
+            <td class="type-col">Boolean Or</td>
             <td>Questions in this category require a boolean OR expression to be evaluated from a collection of boolean values.</td>
             <td>Is either Serena Williams or Roger Federer American?</td>
         </tr>
     </table>
-    <h2>DEFINITIONAL</h2>
+    <h2 class="table-header">DEFINITIONAL</h2>
+    <hr style="width: 95%;">
     <table>
         <tr>
-            <th>Question Type</th>
+            <th class="type-col">Question Type</th>
             <th>Explanation</th>
             <th>Examples</th>
         </tr>
         <tr>
-            <td>Definitional</td>
+            <td class="type-col">Definitional</td>
             <td>Questions in this category require that the definition or meaning of an entity or word is provided to the user.</td>
             <td>What is the definition of fire?</td>
         </tr>
     </table>
-</table>
-<h2>OPEN ENDED</h2>
-<table>
-    <tr>
-        <th>Question Type</th>
-        <th>Explanation</th>
-        <th>Examples</th>
-    </tr>
-    <tr>
-        <td>Causal Explanation</td>
-        <td>Questions in this category require some kind of description of why an event has occurred or why something is the way it is.</td>
-        <td>How did World War I start?</td>
-    </tr>
-    <tr>
-        <td>Opinion</td>
-        <td>Questions in this category require an opinion.</td>
-        <td>What do you think of my hair?</td>
-    </tr>
-</table>
+    <h2 class="table-header">OPEN ENDED</h2>
+    <hr style="width: 95%;">
+    <table>
+        <tr>
+            <th class="type-col">Question Type</th>
+            <th>Explanation</th>
+            <th>Examples</th>
+        </tr>
+        <tr>
+            <td class="type-col">Causal Explanation</td>
+            <td>Questions in this category require some kind of description of why an event has occurred or why something is the way it is.</td>
+            <td>How did World War I start?</td>
+        </tr>
+        <tr>
+            <td class="type-col">Opinion</td>
+            <td>Questions in this category require an opinion.</td>
+            <td>What do you think of my hair?</td>
+        </tr>
+    </table>
 </body>
 </body>
 </html>
