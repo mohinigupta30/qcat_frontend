@@ -19,7 +19,7 @@ class Qcat:
   # maybe keep a static dict of parent-labels?
 
   def __init__(self):
-    # load the model and save it in this object
+    # load the model from huggingface hub and save it in this object
     model_name = "distilbert-base-uncased"
     tokenizer = DistilBertTokenizerFast.from_pretrained(model_name)
     path = "ekohrt/qcat"

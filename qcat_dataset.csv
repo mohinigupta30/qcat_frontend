@@ -1,0 +1,887 @@
+info,question,best_guess_label,parent_label
+break_0,what flights are available tomorrow from denver to philadelphia,set_property_satisfaction,comparison
+break_1,show me the afternoon flights from washington to boston,set_property_satisfaction,comparison
+break_2,show me the flights from atlanta to baltimore,set_property_satisfaction,comparison
+break_3,i want a flight from houston to memphis on tuesday morning,qualitative_property_retrieval,retrieval
+break_4,what are the cheapest one way flights from atlanta to pittsburgh,superlative,comparison
+break_5,what ground transportation is available from the pittsburgh airport to downtown and how much does it cost,qualitative_property_multihop_retrieval,retrieval
+break_6,flight information from san francisco to pittsburgh,qualitative_property_retrieval,retrieval
+break_7,what flights are available from san francisco to pittsburgh on monday morning,set_property_satisfaction,comparison
+break_9,i'm traveling from boston to atlanta and i'd like to go sometime after 5pm but i want to know what kind of airplane it's on,qualitative_property_multihop_retrieval,retrieval
+break_11,what does ff mean,definitional,definitional
+break_12,well i'll try last time tell me the kind of aircraft united airlines flies from denver to san francisco before 10 o'clock in the morning,qualitative_property_multihop_retrieval,retrieval
+break_13,show me the flights from dallas to boston,set_property_satisfaction,comparison
+break_14,i need a flight from philadelphia to dallas,qualitative_property_retrieval,retrieval
+break_15,what is the round trip first class fare on united from boston to san francisco,numeric_retrieval,retrieval
+break_16,i'd like also to book a one way flight from pittsburgh to atlanta the cheapest one on july twentieth,superlative,comparison
+break_17,find me the cheapest one way fare i can get from boston to denver,superlative,comparison
+break_18,flights from baltimore to san francisco,set_property_satisfaction,comparison
+break_19,i want to fly from baltimore to dallas round trip,qualitative_property_retrieval,retrieval
+break_20,what are all the flights into atlanta's airport,set_retrieval,retrieval
+break_21,show me the flights from philadelphia to dallas,set_property_satisfaction,comparison
+break_22,what flights from seattle to salt lake city,set_property_satisfaction,comparison
+break_23,what is the earliest flight from pittsburgh to san francisco,superlative,comparison
+break_24,list the flights from st. paul to san jose and from st. paul to houston,set_property_satisfaction,comparison
+break_25,are there any flights from pittsburgh to boston that leave between noon and 5 o'clock,boolean_retrieval,retrieval
+break_26,what is ord,definitional,definitional
+break_27,list all nonstop flights from los angeles to pittsburgh which arrive before 5pm on tuesday,set_property_satisfaction,comparison
+break_28,show me about the ground transportation in boston,definitional,definitional
+break_29,what's the earliest flight from boston to bwi that serves lunch,superlative,comparison
+break_30,how many flights arrive at general mitchell international,numeric_retrieval,retrieval
+break_31,where does canadian airlines international fly,qualitative_property_retrieval,retrieval
+break_32,what ground transportation is available from the pittsburgh airport to the town,set_retrieval,retrieval
+break_33,what's the capacity of an f28,numeric_retrieval,retrieval
+break_34,what car rentals are available next sunday from denver airport,set_retrieval,retrieval
+break_35,i'd like to book the cheapest one way flight from pittsburgh to atlanta on july twentieth,superlative,comparison
+break_36,show flights leaving miami to cleveland on us air that leave after noon,set_property_satisfaction,comparison
+break_37,i want a flight from atlanta to washington that leaves after 3pm,qualitative_property_multihop_retrieval,retrieval
+break_38,show me the flights from cleveland to memphis,set_property_satisfaction,comparison
+break_39,what does the fare code qw mean,definitional,definitional
+break_40,show me all the flights from cincinnati to toronto,set_property_satisfaction,comparison
+break_42,i'd like to know the latest flight from atlanta to boston,superlative,comparison
+break_43,show flights from memphis to las vegas,set_property_satisfaction,comparison
+break_44,could you please find me a nonstop flight from atlanta to baltimore on a boeing 757 arriving at 7pm,set_property_satisfaction,comparison
+break_45,what flights from st. paul to kansas city on friday with supper served,set_property_satisfaction,comparison
+break_46,could you tell me if there is ground transportation between the boston airport and boston downtown,boolean_retrieval,retrieval
+break_47,is it possible for me to fly from baltimore to san francisco,boolean_retrieval,retrieval
+break_48,what is the first class fare for a round trip dallas to denver,numeric_retrieval,retrieval
+break_49,list all flights on continental leaving seattle on sunday after 430pm,set_property_satisfaction,comparison
+break_50,all flights and fares from pittsburgh to dallas round trip after 12pm less than 1100 dollars,set_property_satisfaction,comparison
+break_51,what flights are available from boston to dallas,set_property_satisfaction,comparison
+break_52,i need a cheap flight from baltimore to san francisco,set_property_satisfaction,comparison
+break_53,a first class flight on american to san francisco on the coming tuesday,set_property_satisfaction,comparison
+break_59,what are the different classes that an airline offers,set_retrieval,retrieval
+break_61,what is fare code qo mean,definitional,definitional
+break_184,what does fare code qx mean,definitional,definitional
+break_191,what does code y stand for,definitional,definitional
+break_229,what does ewr stand for,definitional,definitional
+break_235,define airline us,definitional,definitional
+break_434,what does iah mean,definitional,definitional
+break_456,how many united flights are there to san francisco,counting,math
+break_457,Which shape is a different color from the others?,set_difference,comparison
+break_458,are there more red spheres than metal objects?,counting,math
+break_459,What color is the shiny object that has no sides?,set_property_satisfaction,comparison
+break_460,"is the smallestt item shown, that also matches the shape of the largest item shown, also made of the same material?",qualitative_comparison,comparison
+break_461,Are there any items larger than the yellow cylinder?,set_property_satisfaction,comparison
+break_462,How many boxes are there in the picture?,counting,math
+break_463,"What color is the smallestt, shiny object?",qualitative_property_retrieval,retrieval
+break_464,What shape is the small blue object?,qualitative_property_retrieval,retrieval
+break_465,How many other objects are made from the same type of material as the object that is the most far in the back?,counting,math
+break_466,How many red blocks do you see?,counting,math
+break_467,"There are four items that share one color, what is that color?",set_property_satisfaction,comparison
+break_468,Are more objects green than any other color?,numeric_comparison,comparison
+break_469,What shape is ther only one of?,set_property_satisfaction,comparison
+break_470,What material is the small object that is behind the large red object and is of the same shape?,qualitative_property_multihop_retrieval,retrieval
+break_471,Is the smallestt sphere the same color of the largest cube?,boolean_and,boolean
+break_472,If you took one purple ball out of the picture how many would be left?,counting,math
+break_475,how many shapes are partially hidden?,counting,math
+break_476,How many objects are spheres?,counting,math
+break_1609,Are there more purple shapes than cylinders?,numeric_comparison,comparison
+break_2672,when did chris bention die?,datetime_retrieval,retrieval
+break_2673,what is the population of india 2011?,numeric_retrieval,retrieval
+break_2674,population of india in 2011?,numeric_retrieval,retrieval
+break_2675,what is the population of india in 2011?,numeric_retrieval,retrieval
+break_2676,who was the second indian women climbed mount everest?,qualitative_property_retrieval,retrieval
+break_2677,the highest point of kansa's elevation?,superlative,comparison
+break_2678,what instruments do antonio vivaldi play?,qualitative_property_retrieval,retrieval
+break_2679,who wrote the book brown bear brown bear what did you see?,qualitative_property_retrieval,retrieval
+break_2680,who is the present chief justice of supreme court?,qualitative_property_retrieval,retrieval
+break_2681,who did john edwards marry?,qualitative_property_retrieval,retrieval
+break_2682,name the senators from louisisana?,qualitative_property_retrieval,retrieval
+break_2683,who are the senators representing louisiana?,qualitative_property_retrieval,retrieval
+break_2684,what band did steve winwood sing for?,qualitative_property_retrieval,retrieval
+break_2685,when did jean armour and robert burns get married?,datetime_retrieval,retrieval
+break_2686,who was the first person to develop the theory of evolution?,superlative,comparison
+break_2687,what political party did abraham lincoln represent in 1860?,qualitative_property_retrieval,retrieval
+break_2688,what party supported abraham lincoln in 1860?,qualitative_property_retrieval,retrieval
+break_2689,who was the first black woman to win a nobel prize in 1993 in literature?,superlative,comparison
+break_2690,when did desi arnaz die?,datetime_retrieval,retrieval
+break_2691,what is rosemary clooney to george clooney?,qualitative_comparison,comparison
+break_2692,when was michael jackson first hit?,superlative,comparison
+break_2693,what is the language in burkina faso?,qualitative_property_retrieval,retrieval
+break_2694,what year did the first setters arrive in australia?,datetime_retrieval,retrieval
+break_2695,what jay-z's newest album?,superlative,comparison
+break_2696,what is the population of cobb county georgia?,numeric_retrieval,retrieval
+break_2697,who was nelson mandela first wife?,superlative,comparison
+break_2698,what was the title of philip pullmans first book?,superlative,comparison
+break_2699,prime minister who took command during the battle of britain?,qualitative_property_retrieval,retrieval
+break_2700,british prime minister during the battle of britain?,qualitative_property_retrieval,retrieval
+break_2701,which mountain peak is the tallest in the united state and which of the 50 states is it located?,superlative,comparison
+break_2702,what type of instruments does cody simpson play?,qualitative_property_retrieval,retrieval
+break_2703,what year did martin luther king receive his doctorate degree from boston university?,datetime_retrieval,retrieval
+break_2704,who is adobe ceo?,qualitative_property_retrieval,retrieval
+break_2705,when did wylie drapers die?,datetime_retrieval,retrieval
+break_2706,what was the name of ben franklin wifes name?,qualitative_property_retrieval,retrieval
+break_2707,what country is on the north of china and separates it from russia?,set_intersection,comparison
+break_2708,where was george lopez born?,qualitative_property_retrieval,retrieval
+break_2709,what are the major cities of bahrain?,qualitative_property_retrieval,retrieval
+break_2710,what country is bordered by colmbia in the north and peru in the south?,set_intersection,comparison
+break_2711,who did holly marie combs marry?,qualitative_property_retrieval,retrieval
+break_2712,what is edgar allan poe's cousin that he married name?,qualitative_property_retrieval,retrieval
+break_2713,what is jason derulo's culture?,qualitative_property_retrieval,retrieval
+break_2714,georgia currently has how many state senators?,numeric_retrieval,retrieval
+break_2715,what years did micky mantle play for the yankees?,datetime_retrieval,retrieval
+break_2716,which country is bujmbura in?,qualitative_property_retrieval,retrieval
+break_2717,what major rivers cuts through egypt?,qualitative_property_retrieval,retrieval
+break_2718,what major river runs through eygpt?,qualitative_property_retrieval,retrieval
+break_2719,who was chris benoits wife?,qualitative_property_retrieval,retrieval
+break_2720,what was chris benoit wife name?,qualitative_property_retrieval,retrieval
+break_2721,who was penelope and odysseus' son?,qualitative_property_retrieval,retrieval
+break_2722,who was odysseus and penelope's son?,qualitative_property_retrieval,retrieval
+break_2723,who was the sculptor that created the merlion in singapore?,qualitative_property_retrieval,retrieval
+break_2724,what is the capital city of venezuela?,qualitative_property_retrieval,retrieval
+break_2725,what was jim carrey's first film?,superlative,comparison
+break_2726,when did kobe bryant win his first mvp?,datetime_retrieval,retrieval
+break_2727,what was the age of alexander gramhem bell when he died?,numeric_retrieval,retrieval
+break_2728,what age did alexander graham ball die at?,numeric_retrieval,retrieval
+break_2729,who was the first african american mlb player in the world?,superlative,comparison
+break_2730,when was the 17th amendment passed?,datetime_retrieval,retrieval
+break_2731,what year was 17th amendment passed?,datetime_retrieval,retrieval
+break_2732,what are england's three biggest cities?,superlative,comparison
+break_2733,where is drew seeley from?,qualitative_property_retrieval,retrieval
+break_2734,who replaced nikita khrushchev as general secretary of the soviet union?,qualitative_property_retrieval,retrieval
+break_2735,who replaced nikita khrushchev general secretary of soviet union?,qualitative_property_retrieval,retrieval
+break_2736,who was the highest goal scorer in the 2002 world cup?,superlative,comparison
+break_2737,who is the first president winner in india?,superlative,comparison
+break_2738,who is the first president of republic of india?,superlative,comparison
+break_2739,where did the president william taft go to college?,qualitative_property_retrieval,retrieval
+break_2740,where did william howard taft go to college?,qualitative_property_retrieval,retrieval
+break_2741,what is michael jackson's oldest son name?,qualitative_property_retrieval,retrieval
+break_2742,what awards and honours did john steinbeck receive?,qualitative_property_retrieval,retrieval
+break_2743,what river forms the boarder between the states of washington and oregon?,qualitative_property_retrieval,retrieval
+break_2744,who did chris perez marry after selena quintanilla died?,qualitative_property_retrieval,retrieval
+break_2745,what is the airport in sydney australia called?,qualitative_property_retrieval,retrieval
+break_2746,what is the name of the airport in sydney australia?,qualitative_property_retrieval,retrieval
+break_2747,what is a country in africa that borders sedan and kenya?,set_intersection,comparison
+break_2748,what country in africa that borders sudan and kenya?,set_intersection,comparison
+break_2749,who is the first minister of scotland?,qualitative_property_retrieval,retrieval
+break_2750,name of the current first minister of scotland?,qualitative_property_retrieval,retrieval
+break_2751,who does the voice of carl on phineas and ferb?,qualitative_property_retrieval,retrieval
+break_2752,when did william webb ellis die?,datetime_retrieval,retrieval
+break_2753,who are sarah palins mom and dad?,qualitative_property_retrieval,retrieval
+break_2754,who plays marty from life with derek?,qualitative_property_retrieval,retrieval
+break_2755,who plays marty on life with derek?,qualitative_property_retrieval,retrieval
+break_2756,which city is the louisiana university in?,qualitative_property_retrieval,retrieval
+break_2757,who plays as jake ryan in hannah montana?,qualitative_property_retrieval,retrieval
+break_2758,who plays jake ryan in hannah montana?,qualitative_property_retrieval,retrieval
+break_2759,what state did crispus attucks die in?,qualitative_property_retrieval,retrieval
+break_2760,from where did dr ben carson graduate?,qualitative_property_retrieval,retrieval
+break_2761,which lake borders ohio pennsylvania and new york?,set_intersection,comparison
+break_2762,when was tony romo first year to play for the cowboys?,datetime_retrieval,retrieval
+break_2763,whose mariah carey's husband?,qualitative_property_retrieval,retrieval
+break_2765,first female athlete on wheatis box?,superlative,comparison
+break_2766,what is the neighbouring states for south carolina?,qualitative_property_retrieval,retrieval
+break_2767,who was the dominican republic first president?,superlative,comparison
+break_2768,what were leonardo da vinci's art styles?,qualitative_property_retrieval,retrieval
+break_2769,what art style did leonardo da vinci do?,qualitative_property_retrieval,retrieval
+break_2770,what was the names of mariah carey twins?,qualitative_property_retrieval,retrieval
+break_2771,what didmariah carey name her twins?,qualitative_property_retrieval,retrieval
+break_2773,what did emily bronte die of?,qualitative_property_retrieval,retrieval
+break_2776,what does estonia speak?,qualitative_property_retrieval,retrieval
+break_2777,what year did berlie doherty write street child?,datetime_retrieval,retrieval
+break_2778,when did berlie dorhety write street child?,datetime_retrieval,retrieval
+break_2779,which mountain range separates europe from asia?,qualitative_property_retrieval,retrieval
+break_2780,what range separates europe and asia?,qualitative_property_retrieval,retrieval
+break_2781,where did larry bird coach?,qualitative_property_retrieval,retrieval
+break_2782,in drake and josh who played mindy crenshaw?,qualitative_property_retrieval,retrieval
+break_2783,who was the first manager for liverpool fc?,superlative,comparison
+break_2784,what is the country that borders colombia and costa rica?,set_intersection,comparison
+break_2785,where did brandon marshall go to college?,qualitative_property_retrieval,retrieval
+break_2786,who won the popular vote in 2000 presidential election?,qualitative_property_retrieval,retrieval
+break_2787,what are shaquilles kids names?,qualitative_property_retrieval,retrieval
+break_2788,what is the highest elevation of massachusetts?,superlative,comparison
+break_2790,the amazon river in south america flows in what direction?,qualitative_property_retrieval,retrieval
+break_2791,what musicians have died in 2007?,set_property_satisfaction,comparison
+break_2792,who did frank sinatra marry?,qualitative_property_retrieval,retrieval
+break_2793,where did nadia comaneci go to elementary school?,qualitative_property_retrieval,retrieval
+break_2794,population of students at yale university?,numeric_retrieval,retrieval
+break_2795,what is the students population at yale university?,numeric_retrieval,retrieval
+break_2797,when did emily dickinsons father die?,datetime_retrieval,retrieval
+break_2798,what is only country to border portugal?,qualitative_property_retrieval,retrieval
+break_2799,what is the zip code of san francisco ca?,numeric_retrieval,retrieval
+break_2800,what is the biggest mountain?,superlative,comparison
+break_2801,when did ww1 take place?,datetime_retrieval,retrieval
+break_2802,who were first people to land on moon?,set_retrieval,retrieval
+break_2803,name two countries that border china on the northeast?,qualitative_property_multihop_retrieval,retrieval
+break_2804,what countries border china on the northeast?,qualitative_property_multihop_retrieval,retrieval
+break_2807,when was st maria goretti born?,datetime_retrieval,retrieval
+break_2809,who played shirley on the show shirley?,qualitative_property_multihop_retrieval,retrieval
+break_2810,what position does rooney play for england football team?,qualitative_property_multihop_retrieval,retrieval
+break_2826,explain the origin of indus river?,causal_explanation,open_ended
+break_2827,what sea is between england and norway?,set_property_satisfaction,comparison
+break_2828,what body of water was between england and norway?,set_property_satisfaction,comparison
+break_2829,body of water between norway and england?,set_property_satisfaction,comparison
+break_2830,what is orlando blooms date of birth?,datetime_retrieval,retrieval
+break_2831,when did arkansas becomes the twenty-fifth state?,datetime_retrieval,retrieval
+break_2832,who was louis armstrong's children?,qualitative_property_retrieval,retrieval
+break_2836,what body of water lies between italy and yugoslavia?,set_property_satisfaction,comparison
+break_2837,what was willow smith first song?,superlative,comparison
+break_2839,when did canada join the unite nations?,datetime_retrieval,retrieval
+break_2840,when did jane seymour die in tudor times?,datetime_retrieval,retrieval
+break_2872,what is capital of new york?,qualitative_property_retrieval,retrieval
+break_2921,which country is in both asia and africa?,set_intersection,comparison
+break_2925,what is population in timbuctu today?,numeric_retrieval,retrieval
+break_2929,which country has the most population?,superlative,comparison
+break_2930,which country has the most population in the whole wide world?,superlative,comparison
+break_2938,which island has over 60 percent of indonesia's population?,set_property_satisfaction,comparison
+break_2944,what is the highest mountain in the us?,superlative,comparison
+break_2959,what are the three biggest cities in rhode island?,superlative,comparison
+break_2960,what are three biggest cities in rhode island?,superlative,comparison
+break_2973,when did the first movie of star wars come out?,datetime_retrieval,retrieval
+break_2974,when did denzel washington win his first oscar?,datetime_retrieval,retrieval
+break_2975,what is the deepest lake in the united states?,superlative,comparison
+break_2979,what is the name of the highest mountain in nepal?,superlative,comparison
+break_2987,when is jason earls birthday?,datetime_retrieval,retrieval
+break_2988,what is africas largest mountain ranges?,superlative,comparison
+break_2989,what team won back to back nba championships in 1989 and 1990?,qualitative_property_retrieval,retrieval
+break_2990,what nba team won the back to back championship in 1989 and 1990?,qualitative_property_retrieval,retrieval
+break_2991,where was hinduism begin?,qualitative_property_retrieval,retrieval
+break_2992,which city was rebuilt after 1871 fire?,qualitative_property_retrieval,retrieval
+break_2993,when will bioshock infinit come out?,datetime_retrieval,retrieval
+break_2994,what sea separates atlaska and russia?,qualitative_property_retrieval,retrieval
+break_2995,which sea separates southwestern alaska from russia?,qualitative_property_retrieval,retrieval
+break_2996,what is trinidad and tobagos official language?,qualitative_property_retrieval,retrieval
+break_2997,what is the largest city in alaska?,superlative,comparison
+break_2998,this country separates pakistan and russia?,qualitative_property_retrieval,retrieval
+break_3054,what time zone is phoenix arizona?,qualitative_property_retrieval,retrieval
+break_3055,worlds highest mountain peak?,superlative,comparison
+break_3056,what is the worlds highest mountain peak?,superlative,comparison
+break_3058,when did napoleon become dead?,datetime_retrieval,retrieval
+break_3060,what river flows through mali niger and nigeria?,set_intersection,comparison
+break_3156,what is sean paul?,definitional,definitional
+break_3286,what is the tallest masonry structure in the us?,superlative,comparison
+break_3660,what is the biggest city in arizona,superlative,comparison
+break_3661,which rivers run through the state with the largest city in the us ?,qualitative_property_retrieval,retrieval
+break_3662,which states do colorado river flow through,qualitative_property_retrieval,retrieval
+break_3663,what state has the largest population,superlative,comparison
+break_3664,what is the lowest elevation in pennsylvania,superlative,comparison
+break_3665,what is the highest point in each state whose lowest point is sea level,superlative,comparison
+break_3666,what is the length of the longest river in the usa,numeric_retrieval,retrieval
+break_3667,what is the longest river flowing through new york,superlative,comparison
+break_3668,how many rivers are in new york,numeric_retrieval,retrieval
+break_3669,what states neighbor maine,qualitative_property_retrieval,retrieval
+break_3670,what texas city has the largest population,superlative,comparison
+break_3671,what are major rivers in texas,qualitative_property_retrieval,retrieval
+break_3672,how big is texas,numeric_retrieval,retrieval
+break_3673,how many states border the state that borders the most states,numeric_retrieval,retrieval
+break_3674,what state is dallas in,qualitative_property_retrieval,retrieval
+break_3675,how big is new mexico,numeric_retrieval,retrieval
+break_3676,what is the population of the state with the largest area,numeric_retrieval,retrieval
+break_3677,how many people live in chicago,numeric_retrieval,retrieval
+break_3678,what is the smallest city in arkansas,superlative,comparison
+break_3710,What Tibetan speaking countries have a population of less than 993885000?,set_intersection,comparison
+break_3711,"What country uses Tibetan that has Anren Town , Sichuan?",set_intersection,comparison
+break_3712,What is the most common language in the country where Jamaican English is spoken?,superlative,comparison
+break_3713,What language is spoken in the country that uses the Jamacian Dollar?,qualitative_property_multihop_retrieval,retrieval
+break_3714,Where did George Washington Carver go to school with the largest number of postgraduates?,qualitative_property_multihop_retrieval,retrieval
+break_3715,"What university, with 1979 undergrads, was the alma mater of George Washington Carver?",qualitative_property_retrieval,retrieval
+break_3716,What college did the President who attended Minneapolis High School go to?,qualitative_property_multihop_retrieval,retrieval
+break_3717,What educational institution that has a men's basketball sports team  named Iowa State Cyclones did George Washington Carver go to college?,qualitative_property_multihop_retrieval,retrieval
+break_3718,Which state houses the body of water under McClugage Bridge?,qualitative_property_retrieval,retrieval
+break_3719,"What University did the author who published editions for, That was then, this is now, attend?",qualitative_property_multihop_retrieval,retrieval
+break_3720,What inspired the architect who designed Casa Vicens?,qualitative_property_multihop_retrieval,retrieval
+break_3721,"What did Nicolas Cage named his son, and is the actor that played in the film, Lord of War?",qualitative_property_multihop_retrieval,retrieval
+break_3722,What currency is used in the place were the Chihuahua breed originated?,qualitative_property_multihop_retrieval,retrieval
+break_3723,What currency does the place that the Federal government of Mexico is located at use?,qualitative_property_multihop_retrieval,retrieval
+break_3724,Provide the name of the governor of the state where the 1848 Tampa Bay hurricane hit.?,qualitative_property_multihop_retrieval,retrieval
+break_3833,What are the best sites to see and the population in madrid?,qualitative_property_retrieval,retrieval
+break_3834,What sights can we see in Pinar de Chamarin?,qualitative_property_retrieval,retrieval
+break_3835,What sights in Madrid are exhibition venues that opened before 3 February 2009?,set_union,comparison
+break_3836,Who is the leader of France 2012 and was born on 1954-08-12?,qualitative_property_multihop_retrieval,retrieval
+break_3837,Who is the leader of the government where Michel Goudchax was an office holder in 2012?,qualitative_property_multihop_retrieval,retrieval
+break_3838,Who is the Leader of Country where the First Valls 2012 legislative session was held?,qualitative_property_multihop_retrieval,retrieval
+break_3839,"Find the location of the film Amen, who was the leader of that location in 2012?",qualitative_property_multihop_retrieval,retrieval
+break_4185,"Which side suffered more casualties, the Federales or the Americans?",numeric_comparison,comparison
+break_4186,"How many total people were killed, captured and were listed as casualties?",arithmetic,math
+break_4187,What happened first: Battle of Carrizal or prisoners were repatriated?,datetime_comparison,comparison
+break_4188,How many years after Nyaungyan captured Nyaungshwe did the capture Mone?,mathematical_comparison,comparison
+break_4189,How many years after capturing Nyaungshwe did Nyaungyan capture the large strategic Shan state of Mone?,mathematical_comparison,comparison
+break_4190,How many years passed between Nyaungyan consolidating his holdings and his declaring of himself king?,mathematical_comparison,comparison
+break_4191,How many cities did Nyaungyan try to reclaim?,numeric_retrieval,retrieval
+break_4192,How many years after Pegu fell did the king die?,mathematical_comparison,comparison
+break_4193,When did  Naresuan of Siam die?,datetime_retrieval,retrieval
+break_4199,What happened first: China launched four invasions or a truce?,datetime_comparison,comparison
+break_4200,"Which event happened first, the invasion of Burma, or a truce?",datetime_comparison,comparison
+break_4201,Which Chinese invasion got the furthest into Burma?,numeric_comparison,comparison
+break_4206,How many years passed between the raiding of Kengtung and the Siamese forces withdrawing to the border?,mathematical_comparison,comparison
+break_4227,Give the population difference before and after the war?,mathematical_comparison,comparison
+break_4231,How many more people lived in Peloponnese pre-war compared to the population after the war?,mathematical_comparison,comparison
+break_4233,How many people  less were there in the peninsula after the war?,mathematical_comparison,comparison
+break_4237,How many people did the insurgents demand the surrender of?,numeric_retrieval,retrieval
+break_4636,Where there more households with POSSLQ or those with same-sex partnerships?,numeric_comparison,comparison
+break_4637,How many percent are not same-sex partnerships?,arithmetic,math
+break_4638,How many percent higher was the average family size compared to the average household size?,arithmetic,math
+break_4639,Which household had the smallest percentage?,superlative,comparison
+break_4640,How many more was the average household size than the family size?,arithmetic,math
+break_4641,"How many more, in percentage, were households were non-families than were Marriage living together?",arithmetic,math
+break_4642,How many more households had a female householder with no husband present compared to a  male householder with no wife present?,mathematical_comparison,comparison
+break_4643,"How many more, in percentage, were households made up of were Marriage living together than had children under the age of 18 living with them?",arithmetic,math
+break_4660,How many in percent in the county from the census of 2000 weren't polish?,arithmetic,math
+break_4661,Which ancestral groups are smaller than 7%?,set_property_satisfaction,comparison
+break_4663,Which groups are at least 30000 in size?,set_property_satisfaction,comparison
+break_4991,Which groups are between 2000 and 3200 in size?,set_property_satisfaction,comparison
+break_4992,Which ancestral group is larger: swedish or irish?,numeric_comparison,comparison
+break_4993,Which ancestral group is larger: germans or swedish?,numeric_comparison,comparison
+break_4995,Which groups are at least 3500 in size?,set_property_satisfaction,comparison
+break_4996,How many more large bears are there in Sweden compared to Finland?,mathematical_comparison,comparison
+break_5004,Which groups are between 4000 through 5800 in size?,set_property_satisfaction,comparison
+break_5007,How many yards difference was Jay Cutler���s first touchdown pass compared to his second?,mathematical_comparison,comparison
+break_5008,How many yards difference was Michael Pittman���s last touchdown run compared to his first?,mathematical_comparison,comparison
+break_5009,How many yards longer was the longest field goal over the second longest?,mathematical_comparison,comparison
+break_5010,Which player had the longest touchdown?,superlative,comparison
+break_5011,Who completed the longest field goal?,superlative,comparison
+break_5012,How many total yards did JaMarcus Russell's completed passes add up to?,arithmetic,math
+break_5013,How many incomplete passes did JaMarcus Russell throw?,numeric_retrieval,retrieval
+break_5014,How many field goals of 40 yards or more did Janikowski make?,set_property_satisfaction,comparison
+break_5015,How many passes did JaMarcus Russell not complete?,numeric_retrieval,retrieval
+break_5016,Which team got the ball first?,qualitative_property_retrieval,retrieval
+break_5017,Who scored a touchdown from the farthest distance?,superlative,comparison
+break_5200,How many total games did the Pacers play in the playoffs?,counting,math
+break_5201,How many 41-yard field goals were made in the game?,counting,math
+break_5202,How many 1-yard touchdown runs were made in the game?,counting,math
+break_7258,How many singers do we have?,numeric_retrieval,retrieval
+break_7259,What is the total number of singers?,numeric_retrieval,retrieval
+break_7260,Show all countries and the number of singers in each country.,qualitative_property_retrieval,retrieval
+break_7261,What is the name of the different car makers who produced a car in 1970?,qualitative_property_retrieval,retrieval
+break_7262,Find the make and production time of the cars that were produced in the earliest year?,qualitative_property_retrieval,retrieval
+break_7264,Which distinct car models are the produced after 1980?,set_property_satisfaction,comparison
+break_7265,What are the different models for the cards produced after 1980?,set_property_satisfaction,comparison
+break_7268,Which of the countries has the most car makers? List the country name.,superlative,comparison
+break_7269,What is the name of the country with the most car makers?,superlative,comparison
+break_7273,What is the accelerate of the car make amc hornet sportabout (sw)?,numeric_retrieval,retrieval
+break_7274,How much does the car accelerate that makes amc hornet sportabout (sw)?,numeric_retrieval,retrieval
+break_7275,How many car makers are there in france?,numeric_retrieval,retrieval
+break_7276,What is the number of makers of care in France?,numeric_retrieval,retrieval
+break_7277,How many car models are produced in the usa?,numeric_retrieval,retrieval
+break_7278,What is the count of the car models produced in the United States?,counting,math
+break_7279,What is the average miles per gallon(mpg) of the cars with 4 cylinders?,average,math
+break_7280,What is the average miles per gallon of all the cards with 4 cylinders?,average,math
+break_7290,What is the average weight of cars each year?,average,math
+break_7291,What is the average weight and year for each year?,average,math
+break_7292,Which countries in europe have at least 3 car manufacturers?,set_property_satisfaction,comparison
+break_7294,What are the names of all European countries with at least 3 manufacturers?,set_property_satisfaction,comparison
+break_7763,what is the median height in this classroom?,median,math
+break_7764,what is the average flight length from california to new york?,average,math
+break_7765,what is the mean flight length from california to new york?,average,math
+break_7766,what is the standard deviation of the average time an individual spends on their laptop?,standard_deviation,math
+break_7767,what is the average standard deviation of students height in different college campuses?,average,math
+break_7768,what is the standard deviation of the second column in the dataset?,standard_deviation,math
+break_7769,what is 2 plus 2?,arithmetic,math
+break_7770,what is the sum of the polynomials?,arithmetic,math
+break_7771,what do you get when you add 7 and 9?,arithmetic,math
+break_7772,how many groups of 4 can you make out of the bag of marbles?,arithmetic,math
+break_7773,how does the height of a student effect the likelihood they are on the basketball team?,correlation,math
+break_7774,is the gpa of a student correlated with their future net worth?,correlation,math
+break_7775,how many marbles are in the bag if you remove 11?,arithmetic,math
+break_7776,what is 9 minus 7?,arithmetic,math
+break_7777,what is the mean grade on the midterm?,average,math
+break_7778,what is the standard deviation of the grades on the midterm?,standard_deviation,math
+break_7779,what is the mode grade of the midterm?,mode,math
+break_7780,"which is highest, the mean, median, or mode of the midterm?",superlative,comparison
+break_7781,find the average of the first ten whole numbers?,average,math
+break_7782,what is the mean of the following distrubution?,average,math
+break_7783,is there more than one mode in this dataset?,boolean_retrieval,retrieval
+break_7784,what is 9 times 10?,arithmetic,math
+break_7785,what is 5 multiplied by 11?,arithmetic,math
+break_7786,"if you are given a list of numbers, can you find the standard deviation?",boolean_retrieval,retrieval
+break_7787,how many modes are there in this data set?,counting,math
+break_7788,could there be more than one average in a dataset?,boolean_retrieval,retrieval
+break_7789,what is the most common height in this dataset?,mode,math
+break_7790,what is the difference between the number of red crayons and the number of blue crayons?,arithmetic,math
+break_7791,how many conferences of 6 teams can you make out of the league of basketball teams?,arithmetic,math
+break_7792,"what is the difference between mean, median and mode?",arithmetic,math
+break_7793,what does median mean?,definitional,definitional
+break_7794,what is 8 divided by 2?,arithmetic,math
+break_7795,how many teams would there be if you quadrupled the current league?,arithmetic,math
+break_7796,how many teams would there be if you divided the team in half?,arithmetic,math
+break_7797,which is larger 9 plus 2 or 8 plus 4?,numeric_comparison,comparison
+break_7798,what is the remainder of 45 divided by 7?,arithmetic,math
+break_7799,"what operation comes first, multiplication or addition?",qualitative_property_retrieval,retrieval
+break_7800,what is 5 plus 7 divided by 2?,arithmetic,math
+break_7801,what is the variance of column 3 in the dataset?,standard_deviation,math
+break_7802,what is the median test score?,median,math
+break_7803,"which is larger, the median or the mode?",numeric_comparison,comparison
+break_7804,what is the range of grades on the final?,range,math
+break_7805,what is the difference between the best and worst grade on the final?,arithmetic,math
+break_7806,is there a larger correlation between height and points per game or height and rebounds per game?,numeric_comparison,comparison
+break_7807,how varied are the heights of players on the Chicago basketball team?,standard_deviation,math
+break_7808,what is the relationship between inflation and gdp?,correlation,math
+break_7809,how related are global temperature and and co2 levels?,correlation,math
+break_7810,what is the mode height of students at northwestern?,mode,math
+break_7811,what is the mode time an employee spends on  their laptop?,mode,math
+break_7812,what is the mode number of pages in the harry potter books?,mode,math
+break_7813,what is the mode of the number of texts that she sends per day?,mode,math
+break_7814,mode of the number of lightbulbs in classrooms of tech?,mode,math
+break_7815,what is the standard deviation of pages in the harry potter book?,standard_deviation,math
+break_7816,standard deviation of time spent doing homework?,standard_deviation,math
+break_7817,what is the variance of the number of wins teams have in the nba?,standard_deviation,math
+break_7818,what is the average age of students taking this class?,average,math
+break_7819,what is the standard deviation of age of students taking this class?,standard_deviation,math
+break_7820,what is the mode age of students taking this class?,mode,math
+break_7821,what is the median age of students taking this class?,median,math
+break_7822,what is the standard deviation of number of shoes each person owns?,standard_deviation,math
+break_7823,what is the mode age of number of shoes each person owns?,mode,math
+break_7824,what is the median age of number of shoes each person owns?,median,math
+break_7825,what color is most prevalent in the set of marble?,mode,math
+break_7826,what age is most prevalent in the classroom of students?,mode,math
+break_7827,what is the mode color of sweatshirts within this classroom?,mode,math
+break_7828,what is the standard deviation of column 4 in the data set?,standard_deviation,math
+break_7829,what is the relationship between the temperature outside and kids attendance in class?,correlation,math
+break_7830,what is the correlation between siblings age difference and the number of fights they have?,correlation,math
+break_7831,what was the median arm length in this conference room?,median,math
+break_7832,what is the median of the last column in the dataset?,median,math
+break_7833,what is the median age of the professors at Vanderbilt University?,median,math
+break_7834,what is the median price of a gallon of milk in evanston?,median,math
+break_7835,what is the median price per gallon for gas in illinois?,median,math
+break_7836,what is the average price per gallon for gas in illinois?,average,math
+break_7837,what is the mode price per gallon for gas in illinois?,mode,math
+break_7838,what is the standard deviation for the price per gallon for gas in illinois?,standard_deviation,math
+break_7839,what is the mode capacity of people in tech classrooms?,mode,math
+break_7840,what is the median capacity of people in tech classrooms?,median,math
+break_7841,what is the average capacity of people in tech classrooms?,average,math
+break_7842,what is the standard deviation of capacity of people in tech classrooms?,standard_deviation,math
+break_7843,what is the median number of people on a highschool basketball team?,median,math
+break_7844,what is the mode number of people on a highschool basketball team?,mode,math
+break_7845,what is the average number of people on a highschool basketball team?,average,math
+break_7846,what is the standard deviation of people on a highschool basketball team?,standard_deviation,math
+break_7847,what is the correlation between enrollment of a school and number of people on a highschool basketball team?,correlation,math
+break_7848,what is the average number of burritos a college student eats?,average,math
+break_7849,what is the mode number of burritios a college student eats?,mode,math
+break_7850,what is the median number of burritos a college student eats?,median,math
+break_7851,what is the standard deviation of the number of burritos a college student eats?,standard_deviation,math
+break_7852,what is the relationship between the number of burritos a college student eats and the amount of sushi they eat?,correlation,math
+break_7853,what is the range of number of burritos a college student eats?,range,math
+break_7854,what is the range of number of people on a highschool basketball team?,range,math
+break_7855,what is the range of capacity of people in tech classrooms?,range,math
+break_7856,what is the range of price per gallon for gas in illinois?,range,math
+break_7857,what is the range in the last column of the dataset?,range,math
+set_0,"which films were created in california, but not georgia?",set_difference,comparison
+set_1,what movie directors are both taller than six feet and from california?,set_intersection,comparison
+set_2,which films were filmed in either california or georgia?,set_union,comparison
+set_3,what buildings have a height greater than 500 feet?,set_property_satisfaction,comparison
+set_4,who are the buffalo bills players?,set_retrieval,retrieval
+set_5,who are the presidents from illinois?,set_property_satisfaction,comparison
+set_6,which basketball players are from canada or france,set_union,comparison
+set_7,which presidents are republicans who did not serve two terms,set_difference,comparison
+set_8,can you get me all the ben and jerrys flavors,set_retrieval,retrieval
+set_9,which pizza flavors are spicy and vegetarian,set_intersection,comparison
+set_10,who are the female students who got an A in the class,set_intersection,comparison
+set_11,who are the male students who are failing,set_intersection,comparison
+set_12,what star wars movies have chewbacca and not yoda,set_difference,comparison
+set_13,did star wars or star trek come first,datetime_comparison,comparison
+set_14,which players average 1 steal and 1 block per game,set_intersection,comparison
+set_15,which presidents are 6 feet tall and alive,set_intersection,comparison
+set_16,which wars involved germany but not us,set_difference,comparison
+set_17,which states are south of the iowa line but north of oklahoma,set_intersection,comparison
+set_18,which states are north of the iowa line or south of oklahoma,set_union,comparison
+set_19,which beatles members are alive or still making music,set_union,comparison
+set_20,who are the friends cast that are alive or still acting,set_union,comparison
+set_21,who in the class is failing or dropping,set_union,comparison
+set_22,which elements are noble gases or metals,set_union,comparison
+set_23,which david bowie albums were made in the 1970's or 2010's,set_union,comparison
+set_24,which cities in europe are capitals or the most populated cities in their country,set_union,comparison
+set_25,"which airlines fly to ireland, scotland, or wales",set_union,comparison
+set_26,"what holidays are in february, march, or april",set_union,comparison
+set_27,which fifa game had either messi or ronaldo on the cover,set_union,comparison
+set_28,"what nba championship winners had either lebron james, steph curry, or tim duncan",set_union,comparison
+set_29,what grammy winners are soul or rap artists,set_union,comparison
+set_30,which streaming services have harry potter or lord of the rings movies,set_union,comparison
+set_31,"which lord of the rings characters are wizards, but are not evil",set_difference,comparison
+set_32,which power rangers series had either a pink ranger or black ranger,set_union,comparison
+set_33,which best actor winners won for a biopic but not a drama,set_difference,comparison
+set_34,which best picture winners were horror or comedies,set_union,comparison
+set_35,which beatles songs did geroge harrison sing but not write,set_difference,comparison
+set_36,which dinosaurs were from the triassic period but not the jurassic period,set_difference,comparison
+set_37,what movies were filmed in england but not london,set_difference,comparison
+set_38,did wwi or wwii come first,datetime_comparison,comparison
+set_39,did the raptors in the title before the heat,datetime_comparison,comparison
+set_40,was einstein born before hitler,datetime_comparison,comparison
+set_41,"which indiana jones movie came out first: raiders, temple, or last crusade",datetime_comparison,comparison
+set_42,was sudan or south sudan founded first,datetime_comparison,comparison
+set_43,who was born first between anne frank born and martin luther king jr,datetime_comparison,comparison
+set_44,did we land on the moon or did the iphone come out first,datetime_comparison,comparison
+set_45,was northwesten founded before u chicago or uchicago before northwestern,datetime_comparison,comparison
+set_46,did shakspeare write othello or romeo and juliet first,datetime_comparison,comparison
+set_47,was photography invented first or video,datetime_comparison,comparison
+set_48,did germany invade poland before england declared war on them,datetime_comparison,comparison
+set_49,was the microwave invented first or the toaster,datetime_comparison,comparison
+set_50,did spotify or itunes come to market first,datetime_comparison,comparison
+set_51,is there a relationship between shark attacks and ice cream sales,correlation,math
+set_52,what is the correlation between height and rebounds per game,correlation,math
+set_53,what's the range of hitchcock movie's release dates,range,math
+set_54,what is the range of ages in the full house cast,range,math
+set_55,what is the range of the oldest and newest stevie wonder albums,range,math
+set_56,what is the range of the founding dates of all the countries in the world,range,math
+set_57,what is the range of weights for the sumo wrestlers,range,math
+set_58,who is richard feynman,definitional,definitional
+set_59,what is hanlon's razor,definitional,definitional
+set_60,what is sulfuric acid,definitional,definitional
+set_61,can you define municipal,definitional,definitional
+set_62,what does juking mean,definitional,definitional
+set_63,define capitalism,definitional,definitional
+set_64,what does enfix mean,definitional,definitional
+set_65,how do you define endoplasmic reticulum,definitional,definitional
+set_66,what does gdp stand for,definitional,definitional
+set_67,whats is a rhinoceros,definitional,definitional
+set_68,what does al dente mean,definitional,definitional
+set_69,what is the book of job,definitional,definitional
+set_70,what is the arc de triomphe,definitional,definitional
+set_71,can you define what tacit means,definitional,definitional
+set_72,what is posslq and what does it stand for,definitional,definitional
+set_73,which movie made more money at the box office: jaws or star wars,numeric_comparison,comparison
+set_74,did crime rate drop after the 1994 crime bill,numeric_comparison,comparison
+set_75,are there more indians or hispanics in brampton,numeric_comparison,comparison
+set_76,what is an epoch,definitional,definitional
+set_77,does the vanilla ice cream or chocolate ice cream have more calories,numeric_comparison,comparison
+set_78,is shaq or kobe taller,numeric_comparison,comparison
+set_79,is the gdp of el salvador higher than the gdp of guatemala,numeric_comparison,comparison
+set_80,is the sun brighter than the betelgeuse,numeric_comparison,comparison
+set_81,is facebook worth more than google,numeric_comparison,comparison
+set_82,does days of heavan have a higher rotten tomatoes score than badlands,numeric_comparison,comparison
+set_83,between taylor swift and ed sheeran who has more spotify streams,numeric_comparison,comparison
+set_84,which student had a higher final score,numeric_comparison,comparison
+set_85,does van gogh or monet have more paintings in the moma,numeric_comparison,comparison
+set_86,did starry night sell for more than the scream,numeric_comparison,comparison
+set_87,which website has more visitors,numeric_comparison,comparison
+set_88,betwen those video which of the two has more views,numeric_comparison,comparison
+set_89,is the high school dropout rate higher in mississippi or alabama,numeric_comparison,comparison
+set_90,does saudi arabia have more oil than the rest of the middle east combined,numeric_comparison,comparison
+set_91,did the allies or axis have less deaths,numeric_comparison,comparison
+set_92,what are scare quotes,definitional,definitional
+set_93,did trump or hillary clinton get more votes,numeric_comparison,comparison
+set_94,does mac or windows have a better proccesing power,numeric_comparison,comparison
+set_95,does the rock or vin diesal have more movies,numeric_comparison,comparison
+set_96,is biden older than trump,numeric_comparison,comparison
+set_97,did the dog live longer than the cat,numeric_comparison,comparison
+set_98,which family gave a larger tip,numeric_comparison,comparison
+set_99,is the sky the same color as the ocean,qualitative_comparison,comparison
+set_100,does the iphone and the imac have the same manufacturer,qualitative_comparison,comparison
+set_101,do the rolling stones and the who have the same guitarist,qualitative_comparison,comparison
+set_102,whose hair is blacker,qualitative_comparison,comparison
+set_103,do india and pakistan speak the same language,qualitative_comparison,comparison
+set_104,are turkey and russia part of the same continent,qualitative_comparison,comparison
+set_105,were emmanuel macron and marie le pen born in the same country,qualitative_comparison,comparison
+set_106,were samsung and sony founded in the same country,qualitative_comparison,comparison
+set_107,are they from the same hometown,qualitative_comparison,comparison
+set_108,which bridge has more lanes,numeric_comparison,comparison
+set_109,are otters and beavers the same animal,qualitative_comparison,comparison
+set_110,what wars have israel taken part in,set_retrieval,retrieval
+set_111,can you get me all the state capitals,set_retrieval,retrieval
+set_112,who are the members of the addams family,set_retrieval,retrieval
+set_113,what are the names of obama's daughters,set_retrieval,retrieval
+set_114,what cereals does kellogg make,set_union,comparison
+set_115,which students are over 6 ft tall but also have a dog,set_union,comparison
+set_116,who has both a cat and a dog,set_union,comparison
+set_117,which marbles have the color blue but are also striped,set_union,comparison
+set_118,return the names of all nba teams,set_retrieval,retrieval
+set_119,which players have played in the nba and the mlb,set_union,comparison
+set_120,what is the difference between the tallest and shortest player in the nhl,range,math
+set_121,what is the group of students who are majoring in computer science,set_retrieval,retrieval
+questions_1,What is the story of Kohinoor (Koh-i-Noor) Diamond?,causal_explanation,open_ended
+questions_2,How can I increase the speed of my internet connection while using a VPN?,causal_explanation,open_ended
+questions_3,Why am I mentally very lonely? How can I solve it?,causal_explanation,open_ended
+questions_5,Astrology: I am a Capricorn Sun Cap moon and cap rising...what does that say about me?,causal_explanation,open_ended
+questions_6,Should I buy tiago?,opinion,open_ended
+questions_7,How can I be a good geologist?,causal_explanation,open_ended
+questions_8,When do you use シ instead of し?,causal_explanation,open_ended
+questions_9,Motorola (company): Can I hack my Charter Motorolla DCX3400?,boolean_retrieval,retrieval
+questions_11,How do I read and find my YouTube comments?,causal_explanation,open_ended
+questions_12,What can make Physics easy to learn?,opinion,open_ended
+questions_13,What was your first sexual experience like?,opinion,open_ended
+questions_15,What would a Trump presidency mean for current international master’s students on an F1 visa?,opinion,open_ended
+questions_16,What does manipulation mean?,definitional,definitional
+questions_17,Why do girls want to be friends with the guy they reject?,opinion,open_ended
+questions_18,Why are so many Quora users posting questions that are readily answered on Google?,opinion,open_ended
+questions_19,Which is the best digital marketing institution in banglore?,opinion,open_ended
+questions_20,Why do rockets look white?,causal_explanation,open_ended
+questions_21,What's causing someone to be jealous?,causal_explanation,open_ended
+questions_22,What are the questions should not ask on Quora?,causal_explanation,open_ended
+questions_23,How much is 30 kV in HP?,arithmetic,math
+questions_25,What are some tips on making it through the job interview process at Medicines?,causal_explanation,open_ended
+questions_26,What is web application?,definitional,definitional
+questions_27,Does society place too much importance on sports?,opinion,open_ended
+questions_28,What is best way to make money online?,opinion,open_ended
+questions_29,How should I prepare for CA final law?,opinion,open_ended
+questions_30,What's one thing you would like to do better?,opinion,open_ended
+questions_31,What are some special cares for someone with a nose that gets stuffy during the night?,causal_explanation,open_ended
+questions_32,What Game of Thrones villain would be the most likely to give you mercy?,opinion,open_ended
+questions_33,"Does the United States government still blacklist (employment, etc.) some United States citizens because their political views?",causal_explanation,open_ended
+questions_34,What is the best travel website in spain?,opinion,open_ended
+questions_35,Why do some people think Obama will try to take their guns away?,opinion,open_ended
+questions_36,I'm a 19-year-old. How can I improve my skills or what should I do to become an entrepreneur in the next few years?,opinion,open_ended
+questions_37,"When a girlfriend asks her boyfriend ""Why did you choose me? What makes you want to be with me?"", what should one reply to her?",opinion,open_ended
+questions_38,How do we prepare for UPSC?,opinion,open_ended
+questions_39,What is the stall speed and AOA of an f-14 with wings fully swept back?,numeric_retrieval,retrieval
+questions_40,Why do Slavs squat?,causal_explanation,open_ended
+questions_41,When can I expect my Cognizant confirmation mail?,datetime_retrieval,retrieval
+questions_43,Is being a good kid and not being a rebel worth it in the long run?,opinion,open_ended
+questions_45,What is the quickest way to increase Instagram followers?,opinion,open_ended
+questions_46,How did Darth Vader fought Darth Maul in Star Wars Legends?,causal_explanation,open_ended
+questions_47,"What are the stages of breaking up between couple? I mean, what happens after the breaking up emotionally whether its a male or female?",causal_explanation,open_ended
+questions_48,What are some examples of products that can be make from crude oil?,set_retrieval,retrieval
+questions_49,How do I make friends.,opinion,open_ended
+questions_51,"Will a Blu Ray play on a regular DVD player? If so, how?",causal_explanation,open_ended
+questions_53,What is the best/most memorable thing you've ever eaten and why?,opinion,open_ended
+questions_55,How difficult is it get into RSI?,opinion,open_ended
+questions_57,What are some good rap songs to dance to?,opinion,open_ended
+questions_58,I was suddenly logged off Gmail. I can't remember my Gmail password and just realized the recovery email is no longer alive. What can I do?,causal_explanation,open_ended
+questions_59,What are the best ways to learn French?,opinion,open_ended
+questions_60,How do I download content from a kickass torrent without registration?,causal_explanation,open_ended
+questions_61,Is it normal to have a dark ring around the iris of my eye?,causal_explanation,open_ended
+questions_62,How is the new Harry Potter book 'Harry Potter and the Cursed Child'?,opinion,open_ended
+questions_63,Why do I always get depressed?,causal_explanation,open_ended
+questions_64,Where can I find a European family office database?,causal_explanation,open_ended
+questions_66,What is the best book ever made?,opinion,open_ended
+questions_67,Can we ever store energy produced in lightning?,causal_explanation,open_ended
+questions_68,What is your review of Performance Testing?,opinion,open_ended
+questions_70,What are the types of immunity?,set_retrieval,retrieval
+questions_71,What is a narcissistic personality disorder?,definitional,definitional
+questions_72,How I can speak English fluently?,causal_explanation,open_ended
+questions_73,How helpful is QuickBooks' auto data recovery support phone number to recover your corrupted data files?,opinion,open_ended
+questions_76,How do I prevent breast cancer?,causal_explanation,open_ended
+questions_77,How do I log out of my Gmail account on my friend's phone?,causal_explanation,open_ended
+questions_79,What is purpose of life?,opinion,open_ended
+questions_81,What is the right etiquette for wishing a Jehovah Witness happy birthday?,opinion,open_ended
+questions_83,Why do Swiss despise Asians?,opinion,open_ended
+questions_89,What is your review of The Next Warrior: Proving Grounds - Part 9?,opinion,open_ended
+questions_90,What is the best reference book for physics class 11th?,opinion,open_ended
+questions_92,What are some of the best romantic movies in English?,set_retrieval,retrieval
+questions_93,What causes a nightmare?,causal_explanation,open_ended
+questions_94,What is abstract expressionism in painting?,definitional,definitional
+questions_95,How does 3D printing work?,causal_explanation,open_ended
+questions_96,What was it like to attend Caltech with Jeremy Ehrhardt?,opinion,open_ended
+questions_97,Why did harry become a horcrux?,causal_explanation,open_ended
+questions_101,Did Ronald Reagan have a mannerism in his speech?,boolean_retrieval,retrieval
+questions_102,What were the war strategies of the Union and the Confederates during the Civil War?,set_retrieval,retrieval
+questions_103,Which is the best fiction novel of 2016?,opinion,open_ended
+questions_104,Can I recover my email if I forgot the password?,boolean_retrieval,retrieval
+questions_108,How competitive is the hiring process at Republic Bank?,opinion,open_ended
+questions_113,What do you think China food?,opinion,open_ended
+questions_114,What does taking advantage of someone mean?,definitional,definitional
+questions_115,Why do we cry when we are happy and when we are sad?,causal_explanation,open_ended
+questions_117,"Did you find the ending of the novel ""1984"" depressing?",opinion,open_ended
+questions_122,What mineral holds the highest electrical charge?,superlative,comparison
+questions_123,What is the greatest mystery in the universe?,opinion,open_ended
+questions_125,"Why does China block sanctions at the UN against the Jaish-e-Mohammad (JeM) chief, Masood Azhar?",causal_explanation,open_ended
+questions_127,Can excessive amounts of Vitamin C cause me to have a miscarriage?,causal_explanation,open_ended
+questions_133,Is it normal for older men to be attracted to young women?,opinion,open_ended
+questions_134,What is the strongest structure or strongest shape under compression?,superlative,comparison
+questions_135,Who are the Rohingya Muslims?,definitional,definitional
+questions_136,Does it matter whether humans are selfish or evil?,opinion,open_ended
+questions_139,What is the ideal life after retirement?,opinion,open_ended
+questions_143,Does a black hole have mass?,boolean_retrieval,retrieval
+questions_144,"Is Morgan Freeman correct when he says the only way to stop racism, is to stop talking about it?",opinion,open_ended
+questions_146,How would you review the site Waveclues?,opinion,open_ended
+questions_147,In how many ways can we distribute 10 identical looking pencils to 4 students so that each student gets at least one pencil?,arithmetic,math
+questions_150,How many years Britain ruled India?,numeric_retrieval,retrieval
+questions_153,At what age should someone lose their virginity?,opinion,open_ended
+questions_154,How forgetful are you?,opinion,open_ended
+questions_155,Could Snoke secretly be Darth Maul?,opinion,open_ended
+questions_157,Would you switch from Canon 6D to Leica D-LUX 109?,opinion,open_ended
+questions_168,Which are the best engineering fields?,opinion,open_ended
+questions_175,Which is the best fixed income fund?,opinion,open_ended
+questions_176,What is it like to live in Cologne?,opinion,open_ended
+questions_178,Why does some people prefer small families.?,opinion,open_ended
+questions_179,Do animals kiss?,boolean_retrieval,retrieval
+questions_192,Who was the wife of Lord Krishna?,qualitative_property_retrieval,retrieval
+questions_199,What are the effects of demonitization of 500 and 1000 rupees notes on real estate sector?,causal_explanation,open_ended
+questions_221,What is my puk code?,definitional,definitional
+questions_291,"Is there an end to the universe, and if not, is the universe infinite?",causal_explanation,open_ended
+questions_317,What do countries do to prevent war?,causal_explanation,open_ended
+questions_323,Why are dogs considered omnivores?,causal_explanation,open_ended
+questions_657,What are genders?,definitional,definitional
+questions_659,How long can raw and cooked sausage last refrigerated?,numeric_retrieval,retrieval
+questions_660,What are the best available smartphones gadgets?,opinion,open_ended
+questions_661,How does it feel to be a closeted gay in India?,opinion,open_ended
+questions_665,Is the US election rigged?,boolean_retrieval,retrieval
+questions_667,What is fermentation? What are some products of fermentation?,definitional,definitional
+questions_668,"What do you think about my short film, ""ColorShift""?",opinion,open_ended
+questions_673,What is the best accordion for beginners to learn on?,opinion,open_ended
+questions_675,What's your opinion about the decision on removal of 500 and 1000 rupees currency notes?,opinion,open_ended
+questions_696,How light bend with gravity?,causal_explanation,open_ended
+questions_698,How many new cars are sold by Maserati in the US each year?,numeric_retrieval,retrieval
+questions_715,How magnets are made?,causal_explanation,open_ended
+boolq_0,do iran and afghanistan speak the same language,qualitative_comparison,comparison
+boolq_1,do good samaritan laws protect those who help at an accident,boolean_retrieval,retrieval
+boolq_8,did abraham lincoln write the letter in saving private ryan,boolean_retrieval,retrieval
+boolq_9,is batman and robin a sequel to batman forever,boolean_retrieval,retrieval
+boolq_10,is a wolverine the same as a badger,boolean_retrieval,retrieval
+boolq_11,will there be a green lantern 2 movie,boolean_retrieval,retrieval
+boolq_12,does the icc has jurisdiction in the united states,boolean_retrieval,retrieval
+boolq_14,is there a now you see me 3 coming out,boolean_retrieval,retrieval
+boolq_15,does a penalty shoot out goal count towards the golden boot,boolean_retrieval,retrieval
+boolq_16,will there be a new season of cutthroat kitchen,boolean_retrieval,retrieval
+boolq_17,is jack sikma in the hall of fame,boolean_retrieval,retrieval
+boolq_18,can elves and humans mate lord of the rings,boolean_retrieval,retrieval
+boolq_19,the boy in the plastic bubble based on true story,boolean_retrieval,retrieval
+boolq_21,are tim brown and jim brown in the hall of fame,boolean_and,boolean
+boolq_22,can you drink alcohol in public in denmark or in sweden,boolean_or,boolean
+boolq_23,is jersey currency legal tender in the uk,boolean_retrieval,retrieval
+boolq_24,have the milwaukee bucks or miami heat ever won a championship,boolean_or,boolean
+boolq_25,do the world cup final and euro finals go to penalties,boolean_and,boolean
+boolq_26,is kingdom manga based on a true story,boolean_retrieval,retrieval
+boolq_27,are croatia and serbia part of the european economic area,boolean_and,boolean
+boolq_29,is saline and sodium chloride the same thing,qualitative_property_retrieval,retrieval
+boolq_38,is an australian shepherd the same as an australian cattle dog,qualitative_comparison,comparison
+boolq_39,is tomato puree and tomato sauce the same thing,qualitative_comparison,comparison
+boolq_41,is newcastle upon tyne the same as newcastle,qualitative_comparison,comparison
+boolq_44,is thanksgiving always the last thursday of the month,boolean_retrieval,retrieval
+boolq_45,is lord of the rings after the hobbit,boolean_retrieval,retrieval
+boolq_46,is the fallen movie going to have a sequel,boolean_retrieval,retrieval
+boolq_47,does anyone on instagram have 1 billion followers,boolean_retrieval,retrieval
+boolq_53,does age have any influence on attentional ability and inattentional blindness,causal_explanation,open_ended
+boolq_54,is sanskrit or hindi the first language of the world,boolean_or,boolean
+boolq_57,is it legal to own an ar15 or a grenade in california,boolean_or,boolean
+boolq_62,have michigan and ohio state won a national championship in football,boolean_and,boolean
+boolq_65,does lex luthor know who either superman or spiderman is in smallville,boolean_or,boolean
+boolq_67,will there be a season 2 of marvel's iron fist or season 2 of marvel's daredevil,boolean_or,boolean
+boolq_75,is it illegal to carry a pistol in your car in texas and in mississippi,boolean_and,boolean
+boolq_78,are porto rico and hawaii a part of the united states,boolean_and,boolean
+boolq_79,is there sales tax in the state of washington or delaware,boolean_or,boolean
+boolq_80,has anyone scored 6 goals in one game and had 2 assists in one game,boolean_and,boolean
+boolq_82,is the sears tower the same as the hancock building,qualitative_comparison,comparison
+boolq_86,is wheat flour and white flour the same thing,qualitative_comparison,comparison
+boolq_88,did the english or french win the hundred years war,boolean_or,boolean
+boolq_89,are ferguson jenkins and babe ruth in the hall of fame,boolean_and,boolean
+boolq_90,are family dollar and dollar general the same company,qualitative_comparison,comparison
+boolq_91,is station 19 a grey's anatomy spin off,boolean_retrieval,retrieval
+boolq_92,are tomatoes and tobacco members of the nightshade family,boolean_and,boolean
+boolq_93,is dollar tree the same as dollar general,qualitative_comparison,comparison
+boolq_97,is it legal to carry a gun in nyc and in boston,boolean_and,boolean
+boolq_106,are the marines and and army part of the us navy,boolean_and,boolean
+boolq_108,will there be a uk general election in 2018 or in 2019,boolean_and,boolean
+boolq_110,can i own a handgun in the uk,boolean_retrieval,retrieval
+boolq_114,are pumas cougars and mountain lions the same animal,qualitative_comparison,comparison
+boolq_115,are popeye the sailor man and mickey moouse disney characters,boolean_and,boolean
+boolq_116,have tom hanks and denzel washingtoon both won an academy award,boolean_and,boolean
+boolq_119,is it legal to drink in public in london,boolean_retrieval,retrieval
+boolq_120,do you have to register to vote in america,boolean_retrieval,retrieval
+boolq_125,do either the nissan rogue or nissan alitma have all wheel drive,boolean_or,boolean
+boolq_126,is fear the walking dead set before the walking dead,boolean_retrieval,retrieval
+boolq_127,do new zealand and australia have the same flag,qualitative_comparison,comparison
+boolq_128,did austria and wales qualify for the world cup 2018,boolean_and,boolean
+boolq_129,are carrie underwood or keith urban in the movie soul surfer,boolean_or,boolean
+boolq_131,are one flew over the cuckoo's nest and a catcher in the rye true stories,boolean_and,boolean
+boolq_133,when sandy hit nj was it a hurricane,boolean_retrieval,retrieval
+boolq_136,are call me by your name and jurassic park books,boolean_and,boolean
+boolq_137,have england or india ever won any world cups in cricket,boolean_or,boolean
+boolq_138,are watcher in the woods and holes disney movies,boolean_and,boolean
+boolq_140,were the movies dunkirk or 1917 based on books,boolean_or,boolean
+boolq_142,is national guard boot camp the same as army,qualitative_comparison,comparison
+boolq_143,do dogwood trees or pine trees grow in the middle east,boolean_or,boolean
+boolq_145,are doc martens or timbs still made in the uk,boolean_or,boolean
+boolq_149,is the olympic torch always lit in greece,boolean_retrieval,retrieval
+boolq_150,are canada or mexico in the 2018 soccer world cup,boolean_or,boolean
+boolq_152,are king louie or king richard in the jungle book book,boolean_or,boolean
+boolq_153,does drake in my feelings or take care have a video,boolean_or,boolean
+boolq_156,is a birth certificate or a passport a valid form of id,boolean_or,boolean
+boolq_157,is there a town named keister in the united states,boolean_retrieval,retrieval
+boolq_160,is dc legends of tomorrow or legion based on a comic,boolean_or,boolean
+boolq_162,do papua pigs or guinea pigs come from papua new guinea,boolean_or,boolean
+boolq_167,is st. patricks day always on march 17,boolean_retrieval,retrieval
+boolq_168,is there a national bring your dog and a national bring your cat to work day,boolean_and,boolean
+boolq_171,can you buy beer and wine on sunday in new york,boolean_and,boolean
+boolq_173,does a goal or assist from a throw in count,boolean_or,boolean
+boolq_175,is it possible to download all of wikipedia,boolean_retrieval,retrieval
+boolq_188,did dan stevens and emma watson do the singing in beauty and the beast,boolean_and,boolean
+boolq_195,can you have a skunk or a raccoon as a pet in canada,boolean_or,boolean
+boolq_198,does the united kingdom have an official language,boolean_retrieval,retrieval
+boolq_199,did the dad die in the good dinosaur,boolean_retrieval,retrieval
+boolq_200,is blue cross the same as blue shield,qualitative_comparison,comparison
+boolq_201,is mall of asia the biggest mall in asia,boolean_retrieval,retrieval
+boolq_203,can a person die from too much water,boolean_retrieval,retrieval
+boolq_207,can you drink in the street and smoke in glasgow,boolean_and,boolean
+boolq_208,is cheaper by the dozen a true story,boolean_retrieval,retrieval
+boolq_214,is sweet italian sausage the same as mild,qualitative_comparison,comparison
+boolq_217,can i be sacked for falling asleep at work or yelling at my boss,boolean_or,boolean
+boolq_218,can you buy a car in both wisconsin and michigan on sunday,boolean_and,boolean
+boolq_219,is electrode potential the same as reduction potential,qualitative_comparison,comparison
+boolq_220,did north korea and south korea compete in the 2018 olympics,boolean_and,boolean
+boolq_221,was mercury or lead used as a cure for syphilis,boolean_or,boolean
+boolq_223,is either liverpool or manchester the capital of the united kingdom,boolean_or,boolean
+boolq_227,is a circle the same as a sphere,qualitative_comparison,comparison
+boolq_228,is sperm concentration the same as sperm count,qualitative_comparison,comparison
+boolq_229,did ward and june cleaver sleep in the same bed,qualitative_comparison,comparison
+boolq_238,is the red cross or the blue shield part of the un,boolean_or,boolean
+boolq_239,did wales or scotland ever qualify for the world cup,boolean_or,boolean
+boolq_240,is beauty and the beast and the lion king still on broadway,boolean_and,boolean
+boolq_241,do marvel or fox own the rights to fantastic four,boolean_or,boolean
+boolq_244,did jimmy saville and bill cosby go to jail,boolean_and,boolean
+boolq_255,did lebanon and jordan ever qualify for the world cup,boolean_and,boolean
+boolq_259,did china or japan ever qualify for fifa world cup,boolean_and,boolean
+boolq_260,are england and belgium in the world cup semi finals,boolean_and,boolean
+boolq_261,are green beans the same as french beans,qualitative_comparison,comparison
+boolq_262,does all of japan have the same time zone,qualitative_comparison,comparison
+boolq_263,is spiderman homecoming the same as the amazing spider man,qualitative_comparison,comparison
+boolq_272,does a trapezoid or a square have one set of parallel lines,boolean_or,boolean
+boolq_707,have el salvador or honduras ever been in the world cup,boolean_or,boolean
+handwritten,national parks and beaches in california,set_union,comparison
+handwritten,famous chefs and restaurants in france,set_union,comparison
+handwritten,did Russia invade after the end of the Olympics,datetime_comparison,comparison
+handwritten,nagasaki or hiroshima happened first,datetime_comparison,comparison
+handwritten,did berlin wall fall before or after prague spring,datetime_comparison,comparison
+handwritten,which authors are movie directors,set_intersection,comparison
+handwritten,what dog breeds are intelligent and athletic,set_intersection,comparison
+handwritten,who is the guy that sings for Bleachers and Fun,set_intersection,comparison
+handwritten,celebrities that were also serial killers,set_intersection,comparison
+handwritten,what is the most common age of a professional soccer player?,mode,math
+handwritten,most common undergraduate degree for facebook engineers,mode,math
+handwritten,what keyowrds appear most often in a good resume,mode,math
+handwritten,what is the most commonly asked question on quora,mode,math
+handwritten,what is the typical starting salary for a librarian?,average,math
+handwritten,mean household income in New Jersey,average,math
+handwritten,how long do I spend online per day,average,math
+handwritten,how much do new printers usually cost,average,math
+handwritten,what is the average lifespan among marsupials,average,math
+handwritten,spanish foods that are not spicy,set_difference,comparison
+handwritten,which senators do not get funding from oil companies?,set_difference,comparison
+handwritten,what countries are not in the UN?,set_difference,comparison
+handwritten,what animals can fly that are not birds?,set_difference,comparison
+handwritten,what metals other than lead have a low melting temperature ,set_difference,comparison
+handwritten,besides medication what are the treatments for ADHD,set_difference,comparison
+handwritten,what european nations are not EU members?,set_difference,comparison
+handwritten,major tech companies that aren't social media,set_difference,comparison
+handwritten,what are some lower body exercises that do not require gym equipment,set_difference,comparison
+handwritten,good east coast schools not in the ivy league,set_difference,comparison
+handwritten,do gas prices go up after a natural disaster,correlation,math
+handwritten,does age affect covid recovery,correlation,math
+handwritten,how are money and happiness related,correlation,math
+handwritten,are skin cancer rates and warmer climate correlated,correlation,math
+handwritten,what is the relationship between speed and gas mileage,correlation,math
+handwritten,how related are education and poverty worldwide,correlation,math
+handwritten,is there a correlation between bmi and muscle mass,correlation,math
+handwritten,what relationship is there between exercise and heart health,correlation,math
+handwritten,how strongly related are media consumption and political polarization,correlation,math
+handwritten,correlation between cost of computers and transistor size,correlation,math
+handwritten,who were the people who signed the declaration of independence,set_retrieval,retrieval
+handwritten,what are the countries in NATO,set_retrieval,retrieval
+handwritten,companies owned by google,set_retrieval,retrieval
+handwritten,examples of famous mathematical problems,set_retrieval,retrieval
+handwritten,all members of the royal family,set_retrieval,retrieval
+handwritten,what books did stephen king write,set_retrieval,retrieval
+handwritten,restaurants in evanston,set_retrieval,retrieval
+handwritten,what is the median family income in Australia?,median,math
+handwritten,how many members are there on the microsoft board of directors,counting,math
+handwritten,number of stars within one lightyear,counting,math
+handwritten,how many supreme court cases in 2021,counting,math
+handwritten,how many different airlines are there,counting,math
+handwritten,what is the number of manmade lakes in south carolina,counting,math
+handwritten,kelloggs sells how many types of cereal,counting,math
+handwritten,what is the count of chess openings for white,counting,math
+handwritten,count of different dog breeds,counting,math
+handwritten,are there more conservative or liberal news outlets,numeric_comparison,comparison
+handwritten,who was john adams,definitional,definitional
+handwritten,who was john adams's vice president,qualitative_property_retrieval,retrieval
+handwritten,who was genghis khan,definitional,definitional
+handwritten,who was marie curie,definitional,definitional
+handwritten,how many more gold medals did USA win than Russia in 2012,mathematical_comparison,comparison
+handwritten,how much less is a pound worth than a euro,mathematical_comparison,comparison
+handwritten,how many fewer days in a lunar year than solar year,mathematical_comparison,comparison
+handwritten,how much bigger is a division than a brigade,mathematical_comparison,comparison
+handwritten,does American Airlines have more planes than Delta and by how much?,mathematical_comparison,comparison
+handwritten,by how much is a cheetah faster than a human,mathematical_comparison,comparison
+handwritten,how much stronger is concrete than brick,mathematical_comparison,comparison
+handwritten,how much deadlier is hydrogen bomb than nuclear bomb,mathematical_comparison,comparison
+handwritten,how many fewer people live in rochester today compared to 2000,mathematical_comparison,comparison
+handwritten,compared to gas cars how much more expensive are electric vehicles,mathematical_comparison,comparison
+handwritten,how much cheaper is a tiny house than a normal house,mathematical_comparison,comparison
